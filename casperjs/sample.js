@@ -17,8 +17,8 @@ casper.start(url, function() {
     this.capture('jobstreet.png');
 
     this.fill('form#login', {
-        login_id: 'andy.qut@gmail.com',
-        password: 'a12875883'
+        login_id: 'INSERT YOUR LOGIN HERE',
+        password: 'INSERT YOUR PASSWORD HERE'
     }, true);
 }).waitForSelector('span.header-login-name', function(){
 	//this.echo("evaluating...")
